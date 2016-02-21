@@ -7,12 +7,12 @@ Generate SQL-Ledger compatible SQL script from transactions of a bank account's 
 
 reference,transdate,actor,description,amount,account_no
 
-reference: text/number for the transaction's human-readable identifier
-transdate: YYYY-MM-DD
-actor: the person, organisation or other entity to be the reference for this transaction
-description: textual description
-amount: numeric amount
-account_no: the ledger's contra account for this transaction
+- reference: text/number for the transaction's human-readable identifier
+- transdate: YYYY-MM-DD
+- actor: the person, organisation or other entity to be the reference for this transaction
+- description: textual description
+- amount: numeric amount
+- account_no: the ledger's contra account for this transaction
 
 See the [sample CSV](sample-transactions.csv) for more details.
 
